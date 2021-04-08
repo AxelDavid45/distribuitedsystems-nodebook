@@ -1,3 +1,6 @@
+# keys
+*.key
+*.cert
 # Logs
 logs
 *.log
