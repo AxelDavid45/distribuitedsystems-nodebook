@@ -18,6 +18,7 @@
     "autocannon": "^7.4.0",
     "fastify": "^3.19.2",
     "mercurius": "^7.9.1",
+    "middie": "^5.3.0",
     "node-fetch": "^2.6.1"
   }
 }

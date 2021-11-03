@@ -1,5 +1,6 @@
 # ides
 .idea
+.vscode
 # keys
 *.key
 *.cert
