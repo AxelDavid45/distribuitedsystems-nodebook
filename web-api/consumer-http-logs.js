@@ -39,7 +39,7 @@ const log = require('./logstash.js');
     }
   })
 
-  server.get('/error', async () => { setImmediate(() => { throw new Error('oh no') }) })
+  server.get('/error', async () => {throw new Error('oh no')})
 
   server.listen(PORT, HOST, () => {
     log('verbose', 'listen', { host: HOST, port: PORT })
